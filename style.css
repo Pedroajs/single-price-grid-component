@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    font-size: 16px;
+}
+
+
+.card-container{
+    width: 550px;
+    /* height: 390px; */
+    margin: 0 auto;
+    margin-top:100px;
+    margin-bottom: 100px; 
+
+    border: 1px  solid black;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+    
+}
+.top-card{
+    border-bottom: 1px  solid black;
+    padding: 6%;
+    box-sizing: border-box;
+}
+
+.top-card-title{
+  margin-bottom: 15px;
+  color:hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-family: Karla;
+}
+.top-card-subtitle{
+    margin-bottom: 15px;
+    color:hsl(71, 73%, 54%);
+    font-weight: 400;
+    font-family: Karla;
+
+}
+.top-card-info{
+    color:hsl(218, 22%, 67%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Karla;
+
+}
+.grid{
+    width: 550px;
+    box-sizing: border-box;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+
+}
+.second-card{
+    box-sizing: border-box;
+    padding: 15%;
+    border-right: 1px solid white;
+    background-color: hsl(179, 62%, 43%);
+}
+.second-card-title{
+    color:hsl(204, 43%, 93%);
+    font-weight: 700; 
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-family: Karla;
+}
+strong{
+    color:hsl(204, 43%, 93%);
+    font-size: 30px;
+}
+.pricing-info{
+    color:lightblue;
+}
+
+.second-card-info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: hsl(204, 43%, 93%);;
+}
+.third-card{
+    box-sizing: border-box;
+    padding: 15%;
+    
+}
+
+.third-card-info{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

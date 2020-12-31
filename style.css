@@ -3,8 +3,10 @@
     padding: 0;
 }
 body{
-    width: 1440px;
+    /* width: 1440px; */
     font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -18,7 +20,7 @@ body{
     border: 1px  solid black;
     border-radius: 8px;
 
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     
 }
 .top-card{
@@ -56,42 +58,83 @@ body{
 
 }
 .second-card{
-    box-sizing: border-box;
-    padding: 15%;
-    border-right: 1px solid white;
+    /* box-sizing: border-box;
+    padding: 15%; */
     background-color: hsl(179, 62%, 43%);
 }
 .second-card-title{
     color:hsl(204, 43%, 93%);
     font-weight: 700; 
     font-size: 16px;
+    /* margin-bottom: 15px;
+    box-sizing: border-box; */
+
+    margin-top: 40px;
+    margin-left: 30px;
     margin-bottom: 15px;
-    box-sizing: border-box;
-    font-family: Karla;
 }
 strong{
     color:hsl(204, 43%, 93%);
     font-size: 30px;
+
+    margin-top: 40px;
+    margin-left: 30px;
 }
 .pricing-info{
     color:lightblue;
+    margin-left: 4px;
 }
 
 .second-card-info{
     margin-top: 5px;
     margin-bottom: 5px;
-    color: hsl(204, 43%, 93%);;
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px;   
+    display: inline-block;
+}
+
+.button{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 207px;
+    padding: 15px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color:hsl(204, 43%, 93%);
+    font-weight: 700;
+
 }
 .third-card{
-    box-sizing: border-box;
-    padding: 15%;
+    /* box-sizing: border-box;
+    padding: 15%; */
+    background-color: hsl(181, 53%, 60%);
     
 }
+.third-card-title{
+    color:hsl(204, 43%, 93%);
+    font-weight: 700; 
+    font-size: 16px;
 
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
 .third-card-info{
     list-style: none;
-}
+    
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+    
+    margin-bottom: 5px; 
+    margin-left: 30px;
 
+}
+li{
+    margin-bottom: 3px;
+}
 
 
 
